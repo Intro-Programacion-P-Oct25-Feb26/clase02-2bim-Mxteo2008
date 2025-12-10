@@ -31,6 +31,7 @@ public class Ejemplo01 {
         
         // arreglo de tipo boleano
         boolean[] arreglo5 = new boolean[5];
+ 
     }
 
 }
