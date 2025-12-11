@@ -32,7 +32,10 @@ public class Ejemplo102 {
             // el valor del nombre del estudiante sea:
             // Luis o Ana
             nombre = estudiantes[i];
-            if (nombre.equals("Luis")) {
+            if (!nombre.equals("Luis")) { //que se presente en pantalla
+                                          // todos los valores dentro de arreglo
+                                          //nombres que sean diferentes a 
+                                          // "Luis"
             
                 mensajeFinal = String.format("%sEstudiante:%s - promedio: "
                         + "%.4f\n", 
